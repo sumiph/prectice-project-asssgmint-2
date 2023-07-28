@@ -145,11 +145,6 @@ font-size: 20px;
    font-weight: 500;
     line-height: 45px;
 }
-
-
-
-
-
 /* end we are gamer------- */
 .online-game-card{
     padding: 20px;
@@ -186,10 +181,74 @@ font-size: 20px;
    font-weight: 500;
 }
 /* end online-games-card--------- */
-
-
-
-
+.Careers-section{
+    width: 100%;
+    background-color: #e748a8;
+    padding: 50px;
+}
+.Careers-h1{
+    color: #FFF;
+   font-family: Work Sans;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 60px;
+   margin-left: 2%;
+}.Careers-contener{
+    display: flex;
+    justify-content: space-around;
+}
+.Careers-text{
+    padding: 20px;
+    align-items: center;
+}
+.Careers-text-one p{
+    color: #FFF;
+   font-family: Work Sans;
+   font-size: 18px;
+   font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.Careers-text-tow{
+    display: flex;
+    justify-content: space-between;
+}
+.left-text{
+    text-align: left;
+    color: #FFF;
+   font-family: Work Sans;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 40px; 
+}
+.right-text{
+    text-align: right;
+    color: #FFF;
+   text-align: right;
+   font-family: Work Sans;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 40px; 
+}
+.Careers-text button{
+    display: inline-flex;
+   padding: 15px 35px;
+   align-items: flex-start;
+   border-radius: 48px;
+   background: #FFF;
+   border: none;
+   font-family: Work Sans;
+   font-size: 13px;
+   text-transform: uppercase;
+}
+.Careers-imges img{
+    width: 800px;
+    height: 550px;
+    flex-shrink: 0;
+}
 /* staet media quare-- mobile -------------------------------------------------------------------------*/
  @media screen and (max-width: 576px) {
     .contener,
@@ -216,6 +275,18 @@ font-size: 20px;
      .gamer-imges img{
         width: 100%;
     }
+    .Careers-contener{
+        flex-direction: column;
+    }
+    .Careers-imges img{
+       width: 100%;
+    }
+    .Careers-section{
+        width: 100%;
+        background-color: #e748a8;
+        padding: 0;
+    }
+
 
 
  }
