@@ -190,8 +190,8 @@ font-size: 20px;
 
 
 
-/* staet media quare---------------------------------------------------------------------------*/
- @media screen and (max-width:576px) {
+/* staet media quare-- mobile -------------------------------------------------------------------------*/
+ @media screen and (max-width: 576px) {
     .contener,
     .contend-2,
     .banner-contener,
@@ -204,7 +204,7 @@ font-size: 20px;
         margin-left: 0%;
     }
     .banner-contener{
-        height: 155vh;
+        height: 100vh;
     }
     .online-caeds{
        flex-direction: column;
@@ -216,6 +216,39 @@ font-size: 20px;
      .gamer-imges img{
         width: 100%;
     }
+
+
+ }
+ /* staet media quare-- tablet -------------------------------------------------------------------------*/
+ @media screen and (min-width:577px) and (max-width:992px) {
+    .contener,
+    .contend-2,
+    .banner-contener,
+    .we-are-gamer{
+        flex-direction: column;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .banner-text li{
+        margin-left: 0%;
+    }
+    .banner-contener{
+        height: 180vh;
+    }
+    .online-caeds{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      padding: 40px;
+    }
+    .gamer-text{
+        text-align: center;
+     }
+     .gamer-imges img{
+        width: 100%;
+    }
+
+
+
 
 
  }
