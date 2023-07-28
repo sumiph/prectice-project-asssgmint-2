@@ -70,9 +70,9 @@ span{
 }
 .banner-text h1{
     text-align: center;
-font-family: Work Sans;
-font-size: 95px;
-color: #F948B2;
+ font-family: Work Sans;
+ font-size: 95px;
+ color: #F948B2;
 }
 .banner-text li{
     list-style: none;
@@ -249,12 +249,84 @@ font-size: 20px;
     height: 550px;
     flex-shrink: 0;
 }
+/* end Careers sections- */
+footer{
+    width: 100%;
+    background-color: #0B0223;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    
+}
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.main-header img{
+    height: 35px;
+}
+.main-header h1{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 55px;
+}
+.list-item2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   list-style: none;
+   gap: 15px;
+}
+.list-item2 li{
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.list-icons{
+    padding: 15px;
+}
+.list-items4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+.list-items4 li{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.footer-last-p p{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 15px;
+}
+
+
 /* staet media quare-- mobile -------------------------------------------------------------------------*/
  @media screen and (max-width: 576px) {
     .contener,
     .contend-2,
     .banner-contener,
-    .we-are-gamer{
+    .we-are-gamer,
+    .Careers-contener{
         flex-direction: column;
         margin-top: 10px;
         justify-content: center;
@@ -275,9 +347,6 @@ font-size: 20px;
      .gamer-imges img{
         width: 100%;
     }
-    .Careers-contener{
-        flex-direction: column;
-    }
     .Careers-imges img{
        width: 100%;
     }
@@ -295,7 +364,8 @@ font-size: 20px;
     .contener,
     .contend-2,
     .banner-contener,
-    .we-are-gamer{
+    .we-are-gamer,
+    .Careers-contener{
         flex-direction: column;
         margin-top: 10px;
         justify-content: center;
